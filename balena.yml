@@ -1,4 +1,4 @@
-repoUrl: "https://github.com/hotsparklab/raspivid-udp-camera"
+repoUrl: "https://github.com/hotsparklab/raspberry-pi-udp-camera"
 applicationConfigVariables:
  - BALENA_HOST_CONFIG_start_x: 1
  - BALENA_HOST_CONFIG_gpu_mem_256: 192
