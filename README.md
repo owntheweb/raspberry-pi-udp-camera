@@ -194,3 +194,7 @@ There hasn't been luck successfully playing this formatted UPD video stream in V
 ## How To Stream From A Raspberry Pi As A Webcam
 
 While untested here, UDP video streams have been known to be used as webcams for a receiving computer through third-party applications. A [Google search](https://www.google.com/search?q=use+udp+camera+as+webcam+source&oq=use+udp) brought up several results to explore. Which solution works for you? Post an issue or a PR and share!
+
+## Special Thanks
+
+Many more holes would be in the wall with far fewer brain cells active today if it wasn't for [fzwoch](https://github.com/fzwoch)'s [obs-streamer](https://obsproject.com/forum/resources/obs-gstreamer.696/) project. Also thanks to great comments from [Dregu](https://github.com/Dregu) and [crossan007](https://github.com/crossan007) in [this issue](https://github.com/fzwoch/obs-gstreamer/issues/3) and the [balena.io](https://balena.io) team for their feedback on live streaming topics. Thank you!
