@@ -1,10 +1,10 @@
-# raspivid UDP Camera
+# Raspberry Pi UDP Camera
 
 [![Watch Twitch](https://img.shields.io/badge/watch-Twitch-blueviolet.svg)](https://twitch.tv/hotsparklab) [![Made with](https://img.shields.io/badge/made%20with-coffee-orange)](https://streamelements.com/hotsparklab/tip) [![Fight COVID](https://img.shields.io/badge/fight-covid-red)](https://foldforcovid.io/)
 
 Create a **low-latency** (*fast*) video camera with a [Raspberry Pi](https://www.raspberrypi.org/) and [camera module](https://www.raspberrypi.org/products/camera-module-v2/). Stream the video in realtime to a Mac, PC or other Pi for use in media projects in [Open Broadcaster Software (OBS)](https://obsproject.com/) and other media tools. Optionally scale up by creating a fleet of cameras that broadcast video to one or more machines.
 
-raspivid UDP Camera is not a webcam, however it may be used similarly via [obs-gstreamer](https://github.com/fzwoch/obs-gstreamer) (for OBS), [GStreamer](https://gstreamer.freedesktop.org/) projects in general and other software (todo for other software, untested, solutions welcome).
+Raspberry Pi UDP Camera is not a webcam, however it may be used similarly via [obs-gstreamer](https://github.com/fzwoch/obs-gstreamer) (for OBS), [GStreamer](https://gstreamer.freedesktop.org/) projects in general and other software (todo for other software, untested, solutions welcome).
 
 This project was created with a need to use multiple cameras in a [live Twitch stream](https://twitch.tv/hotsparklab). During a pandemic, webcams have been considerably more expensive, while Raspberry Pi camera modules offer arguably higher quality video than some webcams. With Pis and camera modules handy, let's share.
 
@@ -66,10 +66,10 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
 
   ## Uplaod Application via balena.io CLI
 
-  lone the raspivid UDP Camera repository.
+  lone the Raspberry Pi UDP Camera repository.
 
   ```
-  git clone https://github.com/hotsparklab/raspivid-udp-camera.git
+  git clone https://github.com/hotsparklab/raspberry-pi-udp-camera.git
   ```
 
   Follow [these instructions](https://www.balena.io/docs/reference/balena-cli/) to install the balena.io CLI, used to upload the project locally to the balena.io application.
@@ -86,7 +86,7 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
   balena apps
   ```
 
-  Take note of the app name that was created for raspivid UDP Camera and push to the app.
+  Take note of the app name that was created for Raspberry Pi UDP Camera and push to the app.
 
   ```
   balena push your-app-name-here
@@ -96,7 +96,7 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
 
 </details>
 
-## Install raspivid UDP Camera to the Pi
+## Install Raspberry Pi UDP Camera to the Pi
 
 <details>
   <summary>Expand</summary>
