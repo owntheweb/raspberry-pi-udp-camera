@@ -14,8 +14,6 @@ Using balena.io allows for quick deployment and monitoring of Docker-driven apps
 
 ### Quick Setup
 
-Setup a [belana.io account](https://dashboard.balena-cloud.com/signup).
-
 Use the following link to quickly setup the app in balena.io. See *Slow Setup* below for full details of what's included and various options.
 
 [![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
@@ -120,7 +118,7 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
 
 <details>
   <summary>Expand</summary>
-  
+
   ### Install GStreamer (Windows 10)
 
   For the [obs-gstreamer](https://github.com/fzwoch/obs-gstreamer) to work, GStreamer runtime and the GStreamer development SDK will need to be installed to the PC. Note: There's an experimental Mac and Linux obs-gstreamer plugin, untested here. Post an issue or PR to inform us how it works if you use it.
