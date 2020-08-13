@@ -1,0 +1,18 @@
+version: '2'
+services:
+  server:
+    privileged: true
+    build: .
+    environment:
+      - STREAM_DESTINATION_IP
+      - STREAM_DESTINATION_PORT
+      - WIDTH
+      - HEIGHT
+      - FRAMES_PER_SECOND
+      - BITRATE
+      - ROTATION
+      - FLIP_HORIZONTAL
+      - FLIP_VERTICAL
+      - INTRA_REFRESH_PERIOD
+      - METERING_MODE
+      - EXPOSURE_MODE

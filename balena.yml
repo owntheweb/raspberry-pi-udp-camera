@@ -1,0 +1,19 @@
+repoUrl: "https://github.com/hotsparklab/raspivid-udp-camera"
+applicationConfigVariables:
+ - BALENA_HOST_CONFIG_start_x: 1
+ - BALENA_HOST_CONFIG_gpu_mem_256: 192
+ - BALENA_HOST_CONFIG_gpu_mem_512: 256
+ - BALENA_HOST_CONFIG_gpu_mem_1024: 448
+applicationEnvironmentVariables:
+ - STREAM_DESTINATION_IP: YOUR_RECEIVING_PC_LOCAL_IP
+ - STREAM_DESTINATION_PORT: 5001
+ - WIDTH: 1280
+ - HEIGHT: 720
+ - ROTATION: 0
+ - FLIP_HORIZONTAL: ""
+ - FLIP_VERTICAL: ""
+ - FRAMES_PER_SECOND: 30
+ - INTRA_REFRESH_PERIOD: 60
+ - BITRATE: 2500000
+ - METERING_MODE: average
+ - EXPOSURE_MODE: fixedfps
