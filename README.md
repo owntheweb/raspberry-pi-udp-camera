@@ -12,7 +12,7 @@ This project was created with a need to use multiple cameras in a [live Twitch s
 
 Using balena.io allows for quick deployment and monitoring of Docker-driven apps to devices such as Raspberry Pi (among others). It also allows for mass deployment, monitoring and updates, which had a use case when this project was created (multiple low-latency cameras for the [HotSparkLab](https://twitch.tv/hotsparklab) Twitch stream).
 
-### Quick Setup:
+### Quick Setup
 
 Setup a [belana.io account](https://dashboard.balena-cloud.com/signup).
 
@@ -102,6 +102,7 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
 
 <details>
   <summary>Expand</summary>
+
   In the balena.io dashboard, choose **Devices** in the left navigation.
 
   Click the **Add Device** button at the top.
@@ -115,8 +116,11 @@ Use the following link to quickly setup the app in balena.io. See *Slow Setup* b
   GStreamer is a robust, open source multimedia framework, in this use case great for the purpose of receiving and displaying video broadcasted from the Pi. The [obs-gstreamer](https://obsproject.com/forum/resources/obs-gstreamer.696/) plugin bridges the gap between GStreamer and OBS, allowing configuration and display within OBS for a new "GStreamer source" (kinda like VLC Player, more robust and without a UI).
 </details>
 
+## Setup Open Broadcasting Software (OBS) To Use Camera(s)
+
 <details>
   <summary>Expand</summary>
+  
   ### Install GStreamer (Windows 10)
 
   For the [obs-gstreamer](https://github.com/fzwoch/obs-gstreamer) to work, GStreamer runtime and the GStreamer development SDK will need to be installed to the PC. Note: There's an experimental Mac and Linux obs-gstreamer plugin, untested here. Post an issue or PR to inform us how it works if you use it.
