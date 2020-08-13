@@ -16,7 +16,7 @@ Using balena.io allows for quick deployment and monitoring of Docker-driven apps
 
 Use the following link to quickly setup the app in balena.io. See *Slow Setup* below for full details of what's included and various options.
 
-[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
+[![Deploy with Balena](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
 
 ### Slow Setup
 
