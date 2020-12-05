@@ -16,3 +16,12 @@ services:
       - INTRA_REFRESH_PERIOD
       - METERING_MODE
       - EXPOSURE_MODE
+      - DRC
+      - SHARPNESS
+      - BRIGHTNESS
+      - CONTRAST
+      - SATURATION
+      - ISO
+      - IMAGE_EFFECT
+      - AUTO_WHITE_BALANCE_MODE
+      - H264_PROFILE

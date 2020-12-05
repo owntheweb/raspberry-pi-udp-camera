@@ -17,3 +17,12 @@ applicationEnvironmentVariables:
  - BITRATE: 2500000
  - METERING_MODE: average
  - EXPOSURE_MODE: fixedfps
+ - DRC: off
+ - SHARPNESS: 0
+ - BRIGHTNESS: 50
+ - CONTRAST: 0
+ - SATURATION: 0
+ - ISO: 0
+ - IMAGE_EFFECT: none
+ - AUTO_WHITE_BALANCE_MODE: auto
+ - H264_PROFILE: high
